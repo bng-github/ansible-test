@@ -1,5 +1,5 @@
 pipeline {
-    agent { slave1 { image 'maven:3.8.4-openjdk-11-slim' } }
+    agent { Slave2 { image 'maven:3.8.4-openjdk-11-slim' } }
     stages {
         stage('build') {
             steps {
